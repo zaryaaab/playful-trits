@@ -13,6 +13,5 @@ hide/
 
 # System
 .DS_Store
-.vercel
 
 node_modules/
