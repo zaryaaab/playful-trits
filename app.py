@@ -10,6 +10,7 @@ load_dotenv()
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
+app.static_folder = 'static'
 
 # Supabase configuration from environment variables
 SUPABASE_URL = os.getenv('SUPABASE_URL')
